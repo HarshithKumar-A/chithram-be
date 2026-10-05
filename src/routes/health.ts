@@ -10,7 +10,7 @@
 // });
 
 import { Hono } from 'hono';
-import { sql } from '../db';
+import { sql } from '../db/index.js';
 
 export const healthRoute = new Hono();
 
